@@ -1,3 +1,16 @@
 body {
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
+navigatie {
+    padding: #b3ffff;
+    border: #66ffff;
+    }
+    
+    
+    landingspagina {
+        color: #ffffff;
+        text-align: left;
+        border: 16px;
+    }
