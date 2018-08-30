@@ -1,11 +1,3 @@
-navigatie {
-padding: #b3ffff;
-border: #66ffff;
-}
-
-
-landingspagina {
-    color: #ffffff;
-    text-align: left;
-    border: 16px;
+body {
+    font-family: fantasy;
 }
