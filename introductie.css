@@ -20,19 +20,6 @@ h1 {
 }
 
 .link1{
-    background-color: #e6ffff;
-    padding: 20px;
-    font-size: 40px;
-    text-decoration: none;
-    width: 440px;
-    border: solid #b3ffff 6px;
-    position: absolute;
-    top: 250px;
-    color: black;
-}
-
-
-.link2{
     background-color: #ccffff;
     padding: 20px;
     font-size: 40px;
@@ -40,13 +27,25 @@ h1 {
     width: 400px;
     border: solid #99ffff 6px;
     position: absolute;
-    top: 350px;
+    top: 250px;
     color: black;
 }
 
-.link2:hover {
+.link1:hover{
     background-color: #e6ffff;
-    border: solid#b3ffff 6px;
+    border: solid #b3ffff 6px;
+}
+
+.link2{
+    background-color: #e6ffff;
+    padding: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    width: 440px;
+    border: solid #b3ffff 6px;
+    position: absolute;
+    top: 350px;
+    color: black;
 }
 
 .link3{
@@ -65,7 +64,6 @@ h1 {
     background-color: #e6ffff;
     border: solid#b3ffff 6px;
 }
-
 
 
 

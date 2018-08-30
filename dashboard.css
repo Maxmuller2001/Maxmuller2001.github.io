@@ -20,17 +20,21 @@ h1 {
 }
 
 .link1{
-    background-color: #e6ffff;
+    background-color: #ccffff;
     padding: 20px;
     font-size: 40px;
     text-decoration: none;
-    width: 440px;
-    border: solid #b3ffff 6px;
+    width: 400px;
+    border: solid #99ffff 6px;
     position: absolute;
     top: 250px;
     color: black;
 }
 
+.link1:hover{
+    background-color: #e6ffff;
+    border: solid #b3ffff 6px;
+}
 
 .link2{
     background-color: #ccffff;
@@ -50,23 +54,13 @@ h1 {
 }
 
 .link3{
-    background-color: #ccffff;
+    background-color: #e6ffff;
     padding: 20px;
     font-size: 40px;
     text-decoration: none;
-    width: 400px;
-    border: solid #99ffff 6px;
+    width: 440px;
+    border: solid #b3ffff 6px;
     position: absolute;
     top: 450px;
     color: black;
 }
-
-.link3:hover {
-    background-color: #e6ffff;
-    border: solid#b3ffff 6px;
-}
-
-
-
-
-
