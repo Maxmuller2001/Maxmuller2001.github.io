@@ -1,16 +1,22 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+background-image: url(https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-35.jpg)
+
 }
 
 .keuze {
-    background-color: #ccffff;
+    background-color: #cccccc;
     padding: 20px;
-    font-size: 40px;
+    font-size: 60px;
     text-decoration: none;
-    width: 400px;
-    border: solid #99ffff 6px;
-    position: absolute;
-    top: 0px;
+    width: 1450px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    text-align: center;
+    margin-top: auto;
+    border-radius: 15px;
 }
 
 h1 {
@@ -20,53 +26,87 @@ h1 {
 }
 
 .link1{
-    background-color: #e6ffff;
+    background-color: #cccccc;
     padding: 20px;
     font-size: 40px;
     text-decoration: none;
-    width: 440px;
-    border: solid #b3ffff 6px;
+    width: 400px;
     position: absolute;
     top: 250px;
     color: black;
+    border-radius: 15px;
 }
 
+.link1:hover {
+    background-color: #e6e6e6;
+    width: 440px;
+}
+
+.link1:active {
+    top: 255px;
+}
 
 .link2{
-    background-color: #ccffff;
+    background-color: #cccccc;
     padding: 20px;
     font-size: 40px;
     text-decoration: none;
     width: 400px;
-    border: solid #99ffff 6px;
     position: absolute;
     top: 350px;
     color: black;
+    border-radius: 15px;
 }
 
 .link2:hover {
-    background-color: #e6ffff;
-    border: solid#b3ffff 6px;
+    background-color: #e6e6e6;
+    width: 440px;
+}
+
+.link2:active {
+    top: 355px;
+
 }
 
 .link3{
-    background-color: #ccffff;
+    background-color: #cccccc;
     padding: 20px;
     font-size: 40px;
     text-decoration: none;
     width: 400px;
-    border: solid #99ffff 6px;
     position: absolute;
     top: 450px;
     color: black;
+    border-radius: 15px;
 }
 
 .link3:hover {
-    background-color: #e6ffff;
-    border: solid#b3ffff 6px;
+    background-color: #e6e6e6;
+    width: 440px;
 }
 
+.link3:active {
+    top: 455px;
+}
 
+.vakrechts {
+    border: solid #99ffff 6px;
+    padding: 20px;
+    width: 900px;
+    height: 450px;
+    top: 0px;
+    position: relative;
+float: right;
+background-color: white;
+border-radius: 15px;
+}
 
+.studiewijzer {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
 
-
+#titelstudie {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
