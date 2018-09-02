@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-background-image: url(https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-35.jpg)
-
+background-color: #b3b3b3;
 }
 
 .keuze {
@@ -90,23 +89,39 @@ h1 {
 }
 
 .vakrechts {
-    border: solid #99ffff 6px;
     padding: 20px;
     width: 900px;
-    height: 450px;
+    height: 650px;
     top: 0px;
     position: relative;
 float: right;
 background-color: white;
 border-radius: 15px;
+margin-right: 18px;
 }
 
-.studiewijzer {
+.tekst {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 }
 
-#titelstudie {
+.titel {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+}
+
+.waarom {
+float: top;
+}
+
+.google {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+.humor {
+    float: right;
+    width: 300px;
+    height: 200px;
 }
