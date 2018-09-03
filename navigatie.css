@@ -11,7 +11,7 @@ background-color: #b3b3b3;
     width: 1450px;
     position: relative;
     height: 60px;
-    text-align: center;
+    text-align: left;
     margin-top: auto;
     border-radius: 15px;
 }
@@ -94,18 +94,14 @@ h1 {
 float: right;
 background-color: white;
 border-radius: 15px;
-margin-right: auto;
+right: 14px;
+top: 42px;
 }
 
 .tekst {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 width: 300px;
-}
-
-.titel {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
 }
 
 .waarom {
@@ -120,4 +116,23 @@ float: top;
     position: absolute;
     left: 600px;
     top: 50px;
+}
+
+.sitemap {
+    margin-right: 20px;
+    position: absolute;
+    right: 20px;
+}
+
+.sitemaplinks {
+    background-color: #cccccc;
+    padding: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    width: 1450px;
+    position: relative;
+    height: 60px;
+    text-align: center;
+    top: 20px;
+    border-radius: 15px;
 }
