@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-background-color: #b3b3b3;
+    background-color: #b3b3b3;
 }
 
 .keuze {
@@ -8,12 +12,11 @@ background-color: #b3b3b3;
     padding: 20px;
     font-size: 60px;
     text-decoration: none;
-    width: 1450px;
+    width: 1500px;
     position: relative;
     height: 60px;
     text-align: left;
-    margin-top: auto;
-    border-radius: 15px;
+
 }
 
 h1 {
@@ -22,7 +25,7 @@ h1 {
     top: 250px;
 }
 
-.link1 {
+.profile {
     background-color: #cccccc;
     padding: 20px;
     font-size: 40px;
@@ -34,16 +37,16 @@ h1 {
     border-radius: 15px;
 }
 
-.link1:hover {
+.profile:hover {
     background-color: #e6e6e6;
     width: 440px;
 }
 
-.link1:active {
+.profile:active {
     top: 155px;
 }
 
-.link2 {
+.introductie {
     background-color: #cccccc;
     padding: 20px;
     font-size: 40px;
@@ -55,17 +58,17 @@ h1 {
     border-radius: 15px;
 }
 
-.link2:hover {
+.introductie:hover {
     background-color: #e6e6e6;
     width: 440px;
 }
 
-.link2:active {
+.introductie:active {
     top: 255px;
 
 }
 
-.link3 {
+.dashboard {
     background-color: #cccccc;
     padding: 20px;
     font-size: 40px;
@@ -77,35 +80,35 @@ h1 {
     border-radius: 15px;
 }
 
-.link3:hover {
+.dashboard:hover {
     background-color: #e6e6e6;
     width: 440px;
 }
 
-.link3:active {
+.dashboard:active {
     top: 355px;
 }
 
 .vakrechts {
     padding: 20px;
-    width: 900px;
+    width: 900px;   
     height: 650px;
     position: relative;
-float: right;
-background-color: white;
-border-radius: 15px;
-right: 14px;
-top: 42px;
+    float: right;
+    background-color: white;
+    border-radius: 15px;
+    right: 14px;
+    top: 42px;
 }
 
 .tekst {
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 300px;
 }
 
 .waarom {
-float: top;
+    float: top;
 }
 
 .images {
