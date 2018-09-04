@@ -1,6 +1,5 @@
 * {
     margin: 0;
-
 }
 
 @keyframes achtergrond{
@@ -9,6 +8,18 @@
     }
     100% {
         background-color: #33ffff;
+    }
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+        margin-left: 0%;
+        width: 100%;
     }
 }
 
@@ -22,9 +33,10 @@
     font-family: Arial, Helvetica, sans-serif;
     animation: achtergrond;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: initial;
     animation-timing-function: ease-in-out 0s;
-    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-name: achtergrond, slidein;
 }
 
 .menu {
@@ -47,6 +59,7 @@
     animation-timing-function: ease-in-out 0s;
     animation-direction: alternate;
 }
+
 
 .profile:hover {
     width: 440px;
@@ -119,12 +132,18 @@ float: right;
     width: 65%;
     margin: 10px;
     color: white;
+    border-radius: 15px;
     animation: achtergrond;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out 0s;
     animation-direction: alternate;
 }
+
+.sitemap:hover {
+    width: 440px;
+}
+
 
 .sitemaplinks {
     padding: 20px;
