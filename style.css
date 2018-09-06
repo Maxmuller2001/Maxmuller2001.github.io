@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 @keyframes achtergrond{
     0% {
         background-color: #99ffbb;
@@ -113,6 +117,7 @@
     font-size: 30px;
     float: right;
     width: 55%; 
+    margin-top: 20px;
 }
 
 .images {
@@ -178,9 +183,9 @@ float: right;
 
 .fotointroductie {
 height: 300px;
-width: 400px;
+width: 430px;
 float: left;   
-margin-left: 45px;
+margin-left: 30px;
 border: 6px solid aquamarine;
 border-radius: 15px;
 }
@@ -214,4 +219,16 @@ border-radius: 15px;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out 0s;
     animation-direction: alternate;
+}
+
+.voldoende {
+    background-color: #99ffbb;
+}
+
+.herkansen {
+    background-color: lemonchiffon;
+}
+
+.nietbehaald {
+    background-color: lightcoral;
 }
