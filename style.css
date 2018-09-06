@@ -11,7 +11,7 @@
     }
 }
 
-@keyframes slidein {
+@keyframes menuanimatie {    
     from {
       margin-left: 100%;
       width: 100%; 
@@ -34,7 +34,7 @@
     animation-iteration-count: initial;
     animation-timing-function: ease-in-out 0s;
     animation-duration: 3s;
-    animation-name: slidein;
+    animation-name: menuanimatie;
 }
 
 .menu {
@@ -102,13 +102,10 @@
 }
 
 .vak {
-    padding: 20px;
     font-size: 40px;
     text-decoration: none;
     width: 100%;
-    margin: 10px;
     color: black;
-    border-radius: 15px;
 }
     
 .tekst {
@@ -116,7 +113,6 @@
     font-size: 30px;
     float: right;
     width: 55%; 
-    margin-right: 30px;
 }
 
 .images {
@@ -142,16 +138,28 @@ float: right;
     width: 440px;
 }
 
-
 .sitemaplinks {
-    padding: 20px;
     font-size: 40px;
     text-decoration: none;
     width: 100%;
     position: relative;
     height: 60px;
     text-align: center;
-    top: 20px;
+    top: 40px;
+    animation: achtergrond;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out 0s;
+    animation-direction: alternate;
+}
+
+.extra {
+    padding: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    width: 65%;
+    margin: 10px;
+    color: white;
     border-radius: 15px;
     animation: achtergrond;
     animation-duration: 3s;
@@ -160,6 +168,50 @@ float: right;
     animation-direction: alternate;
 }
 
-#vriendin {
+.extra:hover {
+    width: 440px;
+}
+
+.vriendin {
     font-size: 15px;
+}
+
+.fotointroductie {
+height: 300px;
+width: 400px;
+float: left;   
+margin-left: 45px;
+border: 6px solid aquamarine;
+border-radius: 15px;
+}
+
+.studiemonitor {
+    border:1px solid #C0C0C0;
+    border-collapse:collapse;
+    padding:5px;
+}
+.studiemonitor th {
+    border:1px solid #C0C0C0;
+    padding:5px;
+    background:aquamarine;
+    animation: achtergrond;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out 0s;
+    animation-direction: alternate;
+    color: white;
+}
+.studiemonitor td {
+    border:1px solid #C0C0C0;
+    padding:5px;
+}
+
+.sitemappng {
+    margin: auto;
+    width: 100%;
+    animation: achtergrond;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out 0s;
+    animation-direction: alternate;
 }
