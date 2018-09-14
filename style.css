@@ -139,10 +139,6 @@ float: right;
     animation-direction: alternate;
 }
 
-.sitemap:hover {
-    width: 440px;
-}
-
 .sitemaplinks {
     font-size: 40px;
     text-decoration: none;
@@ -177,6 +173,24 @@ float: right;
     width: 440px;
 }
 
+.motivatie {
+padding: 20px;
+font-size: 40px;
+text-decoration: none;
+width: 65%;
+margin: 10px;
+color: white;
+border-radius: 15px;
+animation: achtergrond;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out 0s;
+animation-direction: alternate;
+}
+
+.motivatie:hover {
+    width: 440px;
+}
 .vriendin {
     font-size: 15px;
 }
