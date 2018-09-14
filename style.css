@@ -47,7 +47,7 @@ body {
     margin: 20px;
 }
 
-.profile {
+.index {
     padding: 20px;
     font-size: 40px;
     text-decoration: none;
@@ -63,7 +63,7 @@ body {
 }
 
 
-.profile:hover {
+.index:hover {
     width: 440px;
 }
 
