@@ -14,5 +14,4 @@ var pigs = function (numberOfPigs) {
     }
     pigs += 'KNOR!';
     return pigs;
-}
-console.log(pigs(4));
+}console.log(pigs(4));
