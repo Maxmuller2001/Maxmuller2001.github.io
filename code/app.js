@@ -89,6 +89,8 @@ for (let d = 0; d < sentence.length; d++) {
     console.log(sentence.charAt(d));
 }
 
+// Functions
+
 const gender = true;
 function giveMeSomeNiceName(gender) {
     let myNewName = '';
@@ -123,3 +125,119 @@ var pigs = function (numberOfPigs) {
     return pigs;
 }
 console.log(pigs(4));
+
+// Arrays
+const productlist = []
+productlist[0] = 'tandenborstel';
+productlist[1] = 'deodorant';
+productlist[2] = 'bakmeel';
+productlist[3] = 'wortels';
+productlist[4] = 'tandpasta';
+productlist[5] = 'krop sla';
+productlist[6] = 'maggi';
+productlist[7] = 'croky chips';
+productlist[8] = 'wc papier';
+productlist[9] = 'shampoo';
+
+console.table(productlist);
+
+const products = [
+    'tandenborstel',
+    'deodorant',
+    'bakmeel',
+    'wortels',
+    'tandpasta',
+    'krop sla',
+    'maggi',
+    'croky chips',
+    'wc papier',
+    'shampoo',
+];
+
+/*  .push
+    .pop
+*/
+products.push('frikadel broodjes');
+console.table(products);
+
+products.forEach(function (elem, index, myArray) {
+    console.log('element', elem);
+    console.log('index', index);
+    console.log('array', myArray);
+});
+
+for (let index = 0; index < products.length; index++) {
+    const element = products[index];
+    console.log(element)
+}
+
+let newProductArray = [];
+// product 0: tandenborstel
+// product 1: deodorant
+// product 2: bakmeel
+// etc
+
+for (let index = 0; index < products.length; index++) {
+    const element = 'products: ' + products[index];
+    newProductArray.push(element);
+    console.table(newProductArray)
+}
+
+let newProductsArray = products.map(function (element, index) {
+    const newElement = `product ${index + 1}: ${element}`;
+    return newElement;
+});
+console.table(newProductsArray);
+
+
+const productPrizes = [2.10, 4.99, 5.60, 0.40, 5.44, 7.33, 2.33, 2.49, 2.10];
+// som van alle prijzen
+const totalSum = function (anArray) {
+    let totalSum = 0;
+    for (let index = 0; index < anArray.length; index++) {
+        totalSum = totalSum + anArray[index];
+
+    }
+    return totalSum;
+}
+
+console.log(totalSum(productPrizes));
+
+//  hoisting
+// function average(){}
+const average = function (anArray) {
+    let newAverage = totalSum(anArray) / anArray.length;
+    return newAverage;
+}
+
+console.log(average(productPrizes));
+
+    let me = {
+        name: 'Max',
+        age: '17',
+        previousDiploma: 'Havo',
+        vervoersmiddel: 'trein',
+        array: [
+            'benji',
+            'stan',
+            'daan',
+            'melissa'
+        ],
+        getal: '4',
+    }
+
+   // console.log('Mijn favoriete vervoersmiddel is de', me.vervoersmiddel, 'en die heeft', me.getal, 'wielen.');
+
+    //for (let i = 0; i < me.array.length; i++)
+      //  console.log(me.array[i]);
+   // me.currentStudy = 'HBO-ICT',
+//console.log(me);
+
+let favoritevehicle = function() {
+    console.log(`Mijn favoriete vervoersmiddel is ${me.vervoersmiddel} en die heeft ${me.getal} wielen.`);
+}
+
+let names = function() {
+    for (let i = 0; i < me.array.length; i++)
+        console.log(me.array[i]);
+}
