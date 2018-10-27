@@ -262,3 +262,22 @@ border-radius: 15px;
     animation-direction: alternate;
 }
 
+.bedrijvensafari {
+    padding: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    width: 65%;
+    margin: 10px;
+    color: white;
+    border-radius: 15px;
+    animation: achtergrond;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out 0s;
+    animation-direction: alternate;
+}
+
+.fotowebsite {
+    height: 300px;
+    width: 600px;
+}

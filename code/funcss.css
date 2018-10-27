@@ -1,0 +1,47 @@
+.header {
+text-align: center;
+font-size: 40px;
+}
+
+.h_container {
+    background-color: deeppink;
+    width: 60%;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    position: relative;
+}
+
+.menu {
+    background-color: deeppink;
+    width: 60%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.options {
+    width: 19%;
+    height: 200px;
+    background-color: aliceblue;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    float: left;
+    border-radius: 100%;
+}
+
+
+:hover.options {
+    background-color: lightblue;
+width: 18%;
+}
+
+.text {
+    text-align: center;
+    margin-top: 45%;
+    font-size: 40px;
+}
