@@ -1,34 +1,50 @@
 //Opdracht 1
-var course1 = document.getElementById("course1");
-var course2 = document.getElementById("course2");
-var course3 = document.getElementById("course3");
-var course4 = document.getElementById("course4");
+const allTableCells = document.getElementsByClassName("grade");
+console.log(allTableCells[0].innerText); //Check to see if i can get the grades
 
-td = document.getElementsByTagName("td");
-csbcijfer = td[1].innerText;
-pbcijfer = td[3].innerText;
-slo = td[5].innerText;
-gametypescript = td[7].innerText;
+let allGrades = [];
+for (let i = 0; i < allTableCells.length; i++) {
+    allGrades.push(allTableCells[i].innerText);
+}
+console.log(allGrades);
 
-totaal = [csbcijfer, pbcijfer, slo, gametypescript];
-console.log(totaal);
-
-//Kan het gemiddelde niet pakken
+//function to determin the average grade of an array
+function averageGrade(gradeArray) {
+    sumOfGrades = 0;
+    for (let i = 0; i < gradeArray.length; i++) {
+        sumOfGrades += parseFloat(gradeArray[i]); //parsefloat to parse all elements from the array
+    }
+    return sumOfGrades / allGrades.length;
+}
+console.log("Het gemiddelde is", averageGrade(allGrades));
 
 //Opdracht 2
-var course = document.getElementsByClassName("course");
-var li = document.getElementsByTagName("li");
+function changeBackground() {
+    const colorArray = ["blue", "red", "purple", "green"];
+    const table = document.getElementById('course');
+    const rows = table.getElementsByTagName("li"); //get all the rows of the table
+    for (i = 0; i < rows.length; i++) {
 
-var i = 0;
-var color = ["red", "blue", "yellow", "orange", "purple", "gray", "green"]
-var random = color[Math.floor(Math.random() * color.length)];
+            rows[i].style.backgroundColor = colorArray;
 
-function loop(event) {
-for (i = 0; i<li.length;i++);
-console.log(i);
+    }
 }
+changeBackground();
+//Opdracht 3
+//Zonder function
+const body = document.getElementById("body");
+const createImg = document.createElement("img");
+createImg.src = 'https://picsum.photos/200/300';
+createImg.alt = "My image";
 
-li[i].style.backgroundColor = random;
+body.appendChild(createImg);
 
-loop();
+//Met function
+function createImgElement(imageSrcName){
+const image = document.createElement("img");
+image.src = imageSrcName;
+image.alt = "My image";
 
+body.appendChild(image);
+}
+createImgElement("https://picsum.photos/200/300");

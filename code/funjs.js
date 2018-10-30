@@ -80,4 +80,4 @@ option_1.appendChild(text1);
 text1.innerHTML = "Random";
 
 //Images
-linkRandom = document.createElement("a");
+
